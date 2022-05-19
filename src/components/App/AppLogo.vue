@@ -3,10 +3,10 @@
   class='logo'
   to='/'
   >
-    <img src="@/assets/images/logo-icp.svg" alt=""
+    <img src="@/assets/images/logo.svg" alt=""
     v-if='theme !== "dark"'
     >
-    <img src="@/assets/images/logo-icp-dark.svg" alt=""
+    <img src="@/assets/images/logo-dark.svg" alt=""
     v-else
     >
   </router-link>
